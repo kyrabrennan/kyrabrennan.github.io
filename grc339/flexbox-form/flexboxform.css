@@ -21,8 +21,6 @@ ul {
 	padding: 0;
 }
 
-/* I have *some* selectors with their declarations in the declaration block. You’ll need more selectors and declaration blocks. */
-
 section.personal-info ul li {
 	display: flex;
 	align-items: center;
