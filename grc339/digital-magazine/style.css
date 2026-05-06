@@ -1,136 +1,359 @@
 /*CSS document*/
 
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
 
 img {
-    width: 100%;
-    display: block;
+	width: 100%;
+	display: block;
 }
 
 body {
-    font-family: sans-serif;
-    background: rgb(245, 245, 245);
-    color: rgb(20, 20, 20);
+	font-family: sans-serif;
+	background: rgb(245, 245, 245);
+	color: rgb(20, 20, 20);
 }
 
 div.container {
-    max-width: 40em;
-    margin: auto;
-     background: rgb(245, 245, 245);
+	max-width: 40rem;
+	margin: auto;
+	background: rgb(245, 245, 245);
+}
+
+div.home-container {
+	max-width: 40rem;
+	margin: auto;
+	background: rgb(245, 245, 245);
 }
 
 h1 {
-    font-family: serif;
-    text-decoration: none;
-    width: 9em;
-    margin: 1rem 0.5rem;
+	font-family: serif;
+	text-decoration: none;
+	width: 9em;
+	margin: 1rem 0.5rem;
 }
 
 
 h2 {
-    font-family: serif;
-    font-size: 2rem;
-    margin: 0.2em 0.5em 0.2em 0.2em;
-    text-decoration: none;
-    color: rgb(92, 118, 150);
-    font-weight: 700;
+	font-family: serif;
+	font-size: 2rem;
+	margin: 0.2em 0.5rem;
+	text-decoration: none;
+	color: rgb(92, 118, 150);
+	font-weight: 700;
 
 }
 
 section.mainstory h2 {
-    font-size: 3rem;
+	font-size: 3rem;
 
 }
 
 .secondary {
-    margin: 1rem 0.5rem 0;
+	margin: 1rem 0 0;
 }
 
 
 ul {
-    list-style: none;
-    margin: 1rem 0;
+	list-style: none;
+	margin: 1rem 0;
 }
 
 ul li {
-    padding: 0.2rem 0.5rem;
-    list-style: none;
-    font-weight: 700;
+	padding: 0.2rem 0.5rem;
+	list-style: none;
+	font-weight: 700;
 
 }
 
 ul li a {
-    text-decoration: none;
-    color: rgb(92, 118, 150);
+	text-decoration: none;
+	color: rgb(92, 118, 150);
 
 }
-
 
 
 p {
-    color: rgb(20, 20, 20);
-    font-size: 1rem;
-    padding: 0.2rem 0.5rem 2rem;
-    text-decoration: none;
+	color: rgb(20, 20, 20);
+	font-size: 1rem;
+	padding: 0.2rem 0.5rem 2rem;
+	text-decoration: none;
 
 }
 
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
 .tertiary {
-    border-top: 1px solid rgb(92, 118, 150);
-    margin: 1rem 0.5rem;
+	border-top: 1px solid rgb(92, 118, 150);
+	margin: 1rem 0.5rem;
 }
 
 .tertiary h2 {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
+	margin: 0;
 }
 
 figcaption {
-    font-style: italic;
-    color: rgb(20, 20, 20);
-    margin: 1rem 0.5rem 1.5rem;
+	font-style: italic;
+	color: rgb(20, 20, 20);
+	margin: 1rem 0.5rem 1.5rem;
 }
 
 aside {
-    background-color: rgb(204, 207, 251);
-    min-height: 100vh;
+	background-color: rgb(204, 207, 251);
+
 }
 
 aside figure {
-    padding: 0.5rem;
+	padding: 0.5rem;
+}
+
+figure {
+	margin: 0;
 }
 
 footer {
-    width: 100%;
-    height: 3rem;
-    box-sizing: border-box;
-    padding: 1em;
-    background: rgb(92, 118, 150);
+	width: 100%;
+	height: 3em;
+	box-sizing: border-box;
+	padding: 1em;
+	background: rgb(92, 118, 150);
 
 
+}
+
+aside .secondary h2 {
+	font-size: 1.2em;
+	margin-left: 1rem;
+}
+
+aside .secondary p {
+	margin-left: 0.5rem;
 }
 
 footer p {
-    color: rgb(255, 255, 255);
-    padding: 0;
+	color: rgb(255, 255, 255);
+	padding: 0;
 
 
 }
 
-@media screen and (min-width: 60em) {
-	nav ul li 	{
+@media screen and (min-width: 40em) {
+	nav ul li {
 		display: inline;
 		font-size: 1rem;
 		padding: 0.5rem;
-        margin-left: 0rem;
+		margin-left: 0rem;
 	}
 
-     p, figcaption, h1, h2, .tertiary,nav ul li {
-        margin-left: 0rem;
-        padding-left: 0rem;
-    }
+	.secondary,
+	.tertiary,
+	section.mainstory {
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+	}
 
+	h1,
+	h2,
+	p,
+	figcaption {
+		margin-left: 0;
+	}
+
+	p,
+	figcaption {
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 60em) {
+	div.home-container {
+		max-width: 80rem;
+		padding: 0 1em;
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 1em;
+	}
+
+	div.container {
+		max-width: 60rem;
+		padding: 0 1em;
+	}
+
+	div.home-container section.mainstory h2,
+	div.home-container section.secondary h2 {
+		flex: 0 0 1em;
+	}
+
+	div.home-container section.mainstory p,
+	div.home-container section.secondary p {
+		flex: 0 0 4em;
+	}
+
+	div.home-container section.secondary,
+	div.home-container section.tertiary {
+		margin: 0;
+	}
+
+	header,
+	footer {
+		grid-column: 1 / 3;
+	}
+
+	div.home-container main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+		align-items: stretch;
+	}
+
+	div.home-container section.mainstory {
+		grid-column: 2 / 4;
+		grid-row: 1 / 3;
+		display: flex;
+	}
+
+	div.home-container section.mainstory a {
+		flex: 1 0 12em;
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	div.home-container section.mainstory img {
+		height: 100%;
+		object-fit: cover;
+	}
+
+
+	div.home-container section.secondary {
+		display: flex;
+	}
+
+	div.home-container section.secondary a {
+		flex: 1 0 12em;
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	div.home-container section.mainstory figure,
+	div.home-container section.secondary figure {
+		flex: 1 0 12em;
+		display: flex;
+
+	}
+
+	div.home-container section.secondary img {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	div.home-container aside {
+		background: none;
+		min-height: 0;
+		align-self: start;
+		margin-top: 0;
+		padding: 0;
+	}
+
+
+	div.container main {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 1em;
+	}
+
+	div.container aside {
+
+		margin: 0;
+		padding: 0;
+		align-self: start;
+	}
 }
