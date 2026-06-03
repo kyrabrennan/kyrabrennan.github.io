@@ -295,9 +295,9 @@ div.container aside {
 }
 .gallery-main {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: 1rem;
-    padding-bottom: 40em;
+    padding-bottom: 50em;
 }
 
 .gallery-main figure {
@@ -381,4 +381,74 @@ div.container aside {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+    body,
+    div.container,
+    div.home-container {
+        background: rgb(18, 32, 45);
+        color: rgb(245, 245, 245);
+    }
+
+    h1 {
+        background-image: url("logo saltair darkmode.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h1 img {
+        opacity: 0;
+    }
+
+    h2,
+    .tertiary h2,
+    aside .secondary h2 {
+        color: rgb(205, 229, 249);
+    }
+
+    p {
+        color: rgb(245, 245, 245);
+    }
+
+    ul li a {
+        color: rgb(205, 229, 249);
+    }
+
+    figcaption {
+        color: rgb(230, 221, 207);
+    }
+
+    aside {
+        background-color: rgb(29, 52, 70);
+    }
+
+    footer {
+        background: rgb(10, 20, 30);
+    }
+
+    .tertiary {
+        border-top: 1px solid rgb(182, 197, 200);
+    }
+
+    .newsletter-form input[type="text"],
+    .newsletter-form input[type="email"] {
+        background: rgb(10, 20, 30);
+        color: rgb(245, 245, 245);
+        border: 1px solid rgb(182, 197, 200);
+    }
+
+    .newsletter-form fieldset {
+        border: 1px solid rgb(182, 197, 200);
+    }
+
+    .newsletter-form legend {
+        color: rgb(230, 221, 207);
+    }
+
+    .newsletter-form button {
+        background: rgb(230, 221, 207);
+        color: rgb(18, 32, 45);
+    }
 }
